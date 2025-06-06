@@ -8,12 +8,69 @@
     align-items: center;
   }
 
+  .heading-primary {
+    font-weight: 400;
+  }
+
   .main-img{
     width: 100%;
   }
 
   .text-container {
     font-size: 4rem;
+    position: relative;
+  }
+
+  h1 {
+    z-index: 2;
+    position: relative;
+  }
+
+  .cta-container {
+    margin-top: 5%;
+    display: inline-grid;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 1.6rem;
+    cursor: pointer;
+  }
+
+  .cta-button {
+    background-color: black;
+    color: white;
+    padding: 1.6rem 3.6rem;
+  }
+
+  .cta-icon {
+    height: 16px;
+    width: 16px;
+  }
+
+  .vector-image {
+    position: absolute;
+    width: 140px;
+    top: -20px;
+    left: -45px;
+    z-index: 1;
+    transform: rotate(-7deg);
+    opacity: 0.8;
+  }
+
+  .my-details {
+    display: flex;
+    font-style: italic;
+    margin-top: 3.2rem;
+    font-size: 1.5rem;
+  }
+
+  .my-email {
+    margin-left: 3.2rem;
+  }
+
+  .details-icon { 
+    height: 15px;
+    width: 15px;
   }
 
   @media (max-width: 1024px) {
@@ -43,4 +100,8 @@
       max-width: 80%;
       margin: 0 auto;
     }
+  }
+
+  .sub-headding {
+    font-size: 2.8rem;
   }

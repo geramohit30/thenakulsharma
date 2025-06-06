@@ -16,5 +16,8 @@
     line-height: 1;
     /* font-weight: 400; */
     margin: 0;
-    color: #555;
+    color: #030303;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
